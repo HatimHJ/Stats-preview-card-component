@@ -1,0 +1,36 @@
+.hide{
+  display: none;
+  transition: all .4s
+}
+.show{
+  display: block;
+  transition: all .4s
+}
+
+.block{display: block}
+
+.fw-700{font-weight: 700;}
+.fw-400{font-weight: 400;}
+.bsd{font-family: 'Big Shoulders Display', 'cursive';}
+.ld{font-family: 'Lexend Deca', sans-serif;}
+
+.sr-only{
+  position: absolute;
+  top: -10rem;
+  left: -10rem;
+  width: 0px;height: 0px;
+}
+
+.hover .box{
+  filter: blur(3px);
+  transition: all .2s;
+}
+.cancel{filter: blur(0) !important;}
+
+.text-center{text-align: center;}
+
+.desktop{display: none;}
+@media (min-width:768px) {
+  .mobile{display: none;}
+  .desktop{display: block;object-fit: cover;height: 100%;}
+}
